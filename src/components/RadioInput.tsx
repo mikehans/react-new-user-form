@@ -1,10 +1,12 @@
 import React from 'react'
 
-export default function RadioInput({fieldName, fieldLabel}) {
+export default function RadioInput({ fieldName, fieldId, fieldLabel }) {
     return (
-        <div>
-            <input type="radio" name={fieldName} id={fieldName} />
-            <label htmlFor={fieldName}>{fieldLabel}</label>
+        <div className="fieldControl">
+            <div>
+                <input type="radio" name={fieldName} id={fieldId} className="fieldControl--radio" />
+                <label htmlFor={fieldId} className="fieldControl--radio-label">{fieldLabel}</label>
+            </div>
         </div>
     )
 }

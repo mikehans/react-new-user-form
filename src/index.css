@@ -1,0 +1,14 @@
+
+:global(.fieldControl) {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+/* :global(.fieldControl--label) {
+    color: green;
+}
+
+:global(.fieldControl--textInput) {
+    background-color: blueviolet;
+} */
